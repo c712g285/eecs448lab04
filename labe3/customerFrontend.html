@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="formChecker.js" ></script>
+    <title>GG Store</title>
+  </head>
+  <body>
+    <form action="customerBackend.php" onsubmit= "return check()" method="post">
+      <h>Welcome to my store!</h>
+
+      <br></br><br></br>
+
+      <div class="Items">
+        <table>
+          <thead>Items list!</thead>
+          <tr>
+            <th>item1: ice cream 10$</th>
+            <th>item2: pepsi 2$</th>
+            <th>item3: pop corn 5$</th>
+          </tr>
+          <tr>
+            <td><input type="number" name="icecream" id="icecream" ></td>
+            <td><input type="number" name="pepsi"   id="pepsi" ></td>
+            <td><input type="number" name="popcorn" id="popcorn" ></td>
+          </tr>
+        </table>
+      </div>
+
+      <br></br><br></br>
+
+      <div class="shippingType">
+        <table>
+          <thead>Type of Shipping</thead>
+          <tr>
+            <td><input type="radio" name="shipping" id="freeShip" value="0">7 day</td>
+            <td><input type="radio" name="shipping" id="expressShip" value="50">1-day shipping</td>
+            <td><input type="radio" name="shipping" id="normalShip" value="5">3-day shipping</td>
+          </tr>
+        </table>
+      </div>
+
+      <br></br><br></br>
+
+      <table>
+        <tr>
+          <th>Username</th>
+          <div class="username">
+            <td><input type="text" name="username" id="username" value="name@domain.com" ></td>
+          </div>
+        </tr>
+        <tr>
+          <th>Password</th>
+          <div class="Password">
+            <td><input type="password" name="password" id="password" ></td>
+          </div>
+        </tr>
+      </table>
+      <br></br><br></br>
+      <input type="reset" name="reset" id="test12" value="Reset">
+      <input type="submit"  value="Submit your order">
+      </form>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+body
+{
+  background-color: #355C7D;
+  color:#F8B195;
+  font-style: italic;
+  font-size: 10pt;
+}
+h
+{
+  margin: auto;
+  font-size: 30pt;
+}
+
+table,td,th,tr
+{
+  background-color: #ababab;
+  color:#706677;
+  border: 3px solid #565264;
+  height: 25px;
+  font-size: 10pt;
+}
+
+td,th,tr
+{
+  padding: 3px;
+  margin: auto;
+}
